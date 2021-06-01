@@ -9,7 +9,7 @@ function addMonths(date, months) {
 
 //===================Test===================================
 
-//minus 3 months from 31 May 2021 -> 28 Feb 2021
+//Subtract 3 months from 31 May 2021 -> 28 Feb 2021
 console.log(addMonths(new Date(2021, 4, 31), -3).toString());
 
 // Add 12 months to 29 Feb 2016 -> 28 Feb 2017
